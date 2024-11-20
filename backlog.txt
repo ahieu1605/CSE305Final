@@ -1,0 +1,35 @@
+User:
+- Đăng ký/ đăng nhập
+- Chỉnh sửa thông tin cá nhân
+- Kiểm tra thông tin tiêu xài
+- Chỉnh sửa khoản chi tiêu
+- Tạo bản báo cáo tiêu dung
+- Nhận cảnh báo khi chi tiêu lố
+
+
+Admin:
+- Quản lí tài khoản 
+- Số lượng người dung - Tên người dùng - Số tiền người - Cập nhật khoản chi tiêu - Lần truy cập cuối
+
+
+
+SQL:
+User:
+-Bảng user: Username (id) -Name -Birth-Address-Income-Description
+-> bảng user lấy data từ [username]
+-Bảng chi tiêu: Username (id) - Type - Amount
+-Bảng limit: Username(id) - Type - Limit Amount
+-Bảng type: Type
+-Bảng sum: Username (id) - Type - Sum(Amount)
+
+
+
+
+
+Admin:
+
+
+
+
+*Add Features:
+-> Export pdf excel
